@@ -1,4 +1,4 @@
-<acceptance-test-run title="Selecting services" name="Selecting services" description="" steps="34" successful="22" failures="4" skipped="8" ignored="0" pending="0" result="FAILURE" duration="119981" timestamp="2015-12-03T02:18:38.076+01:00">
+<acceptance-test-run title="Selecting services" name="Selecting services" description="" steps="33" successful="21" failures="4" skipped="8" ignored="0" pending="0" result="FAILURE" duration="121173" timestamp="2015-12-03T14:39:51.430+01:00">
   <user-story id="book-a-flight" name="Book a flight" path="src/test/resources/features/consult_dictionary/BookingFlight.feature"/>
   <tags>
     <tag name="Book a flight" type="feature"/>
@@ -99,7 +99,7 @@
       <screenshots>
         <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="14690">
+      <test-step result="SUCCESS" duration="13279">
         <screenshots>
           <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
         </screenshots>
@@ -111,17 +111,17 @@
         <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
         <screenshot image="780d1a3d9490ffcad2c11858aa172581.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="3270">
+      <test-step result="SUCCESS" duration="4525">
         <screenshots>
           <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
           <screenshot image="7a29ec43fc6a4386dd60a8def59cd03c.png"/>
         </screenshots>
         <description>Enters: &lt;span class=&apos;step-parameter&apos;&gt;LNZ, TFS, 10/12/2015, 17/12/2015, 0, 0, 5, 0&lt;/span&gt;</description>
       </test-step>
-      <test-step result="SUCCESS" duration="391">
+      <test-step result="SUCCESS" duration="844">
         <screenshots>
           <screenshot image="7a29ec43fc6a4386dd60a8def59cd03c.png"/>
-          <screenshot image="63fbf1ef4182cd31b1cac52b0ca0a5aa.png"/>
+          <screenshot image="ac9ee454da653f4b41627b9e65cf7108.png"/>
         </screenshots>
         <description>Starts search</description>
       </test-step>
@@ -130,17 +130,17 @@
       <screenshots>
         <screenshot image="780d1a3d9490ffcad2c11858aa172581.png"/>
       </screenshots>
-      <test-step result="FAILURE" duration="119">
+      <test-step result="FAILURE" duration="142">
         <screenshots>
           <screenshot image="780d1a3d9490ffcad2c11858aa172581.png"/>
         </screenshots>
         <description>Check flights page</description>
         <error>java.lang.AssertionError</error>
         <exception>java.lang.AssertionError:null&#xd;
-[com.davidsanchez.serenity.steps.serenity.EndUserSteps.check_flights_page(EndUserSteps.java:37), com.davidsanchez.serenity.steps.DefinitionSteps.thenTheyShouldSeeCheckFlightsPage(DefinitionSteps.java:34), org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86), org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)]</exception>
+[com.davidsanchez.serenity.steps.serenity.EndUserSteps.check_flights_page(EndUserSteps.java:37), com.davidsanchez.serenity.steps.DefinitionSteps.thenTheyShouldSeeCheckFlightsPage(DefinitionSteps.java:34)]</exception>
       </test-step>
     </test-group>
-    <test-step result="SKIPPED" duration="3">
+    <test-step result="SKIPPED" duration="2">
       <description>Then the user enters passengers names with title &quot;MR&quot;, &quot;Pepe&quot; and &quot;Dragon&quot;, travel insurance &quot;ZQ&quot;</description>
     </test-step>
     <test-step result="SKIPPED" duration="1">
@@ -152,7 +152,7 @@
       <screenshots>
         <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="12681">
+      <test-step result="SUCCESS" duration="10714">
         <screenshots>
           <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
         </screenshots>
@@ -164,17 +164,17 @@
         <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
         <screenshot image="4dbf557e6d937dd72fd1f20cdb04b5f7.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2489">
+      <test-step result="SUCCESS" duration="3101">
         <screenshots>
           <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
           <screenshot image="0a341677eb394935f92113b3625e73b0.png"/>
         </screenshots>
         <description>Enters: &lt;span class=&apos;step-parameter&apos;&gt;LNZ, TFS, 10/12/2015, 17/12/2015, 1, 0, 0, 5&lt;/span&gt;</description>
       </test-step>
-      <test-step result="SUCCESS" duration="395">
+      <test-step result="SUCCESS" duration="510">
         <screenshots>
           <screenshot image="0a341677eb394935f92113b3625e73b0.png"/>
-          <screenshot image="c3bc0b35972974cd56d3d9073c3ca2e8.png"/>
+          <screenshot image="e870187e353a29f1d3771440034aaabc.png"/>
         </screenshots>
         <description>Starts search</description>
       </test-step>
@@ -183,14 +183,14 @@
       <screenshots>
         <screenshot image="4dbf557e6d937dd72fd1f20cdb04b5f7.png"/>
       </screenshots>
-      <test-step result="FAILURE" duration="117">
+      <test-step result="FAILURE" duration="146">
         <screenshots>
           <screenshot image="4dbf557e6d937dd72fd1f20cdb04b5f7.png"/>
         </screenshots>
         <description>Check flights page</description>
         <error>java.lang.AssertionError</error>
         <exception>java.lang.AssertionError:null&#xd;
-[com.davidsanchez.serenity.steps.serenity.EndUserSteps.check_flights_page(EndUserSteps.java:37), com.davidsanchez.serenity.steps.DefinitionSteps.thenTheyShouldSeeCheckFlightsPage(DefinitionSteps.java:34), org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86), org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)]</exception>
+[com.davidsanchez.serenity.steps.serenity.EndUserSteps.check_flights_page(EndUserSteps.java:37), com.davidsanchez.serenity.steps.DefinitionSteps.thenTheyShouldSeeCheckFlightsPage(DefinitionSteps.java:34)]</exception>
       </test-step>
     </test-group>
     <test-step result="SKIPPED" duration="1">
@@ -205,7 +205,7 @@
       <screenshots>
         <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="11511">
+      <test-step result="SUCCESS" duration="10718">
         <screenshots>
           <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
         </screenshots>
@@ -215,41 +215,41 @@
     <test-group name="When the user enter origin: &quot;SZG&quot; ,destination: &quot;DUB&quot;, departure date: &quot;14/12/2015&quot;, return date: &quot;21/12/2015&quot;,number of adults: &quot;1&quot;,number of teens: &quot;0&quot;,number of children: &quot;0&quot;,number of infants: &quot;0&quot;" result="SUCCESS">
       <screenshots>
         <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
-        <screenshot image="aae2b40a809486c8f97a9a3b73a9e8f9.png"/>
+        <screenshot image="e548406e7c2295eb8bf8aaf09c1f4e2b.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2325">
+      <test-step result="SUCCESS" duration="2792">
         <screenshots>
           <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
           <screenshot image="d38c0b6b366cf0465946d8332db6a515.png"/>
         </screenshots>
         <description>Enters: &lt;span class=&apos;step-parameter&apos;&gt;SZG, DUB, 14/12/2015, 21/12/2015, 1, 0, 0, 0&lt;/span&gt;</description>
       </test-step>
-      <test-step result="SUCCESS" duration="433">
+      <test-step result="SUCCESS" duration="933">
         <screenshots>
           <screenshot image="d38c0b6b366cf0465946d8332db6a515.png"/>
-          <screenshot image="9930f9ed97bf35cec37fdeed1ade981a.png"/>
+          <screenshot image="0b7100ab2136638b86cbdaf108e63cd2.png"/>
         </screenshots>
         <description>Starts search</description>
       </test-step>
     </test-group>
     <test-group name="Then they should see the check flights page" result="FAILURE">
       <screenshots>
-        <screenshot image="aae2b40a809486c8f97a9a3b73a9e8f9.png"/>
+        <screenshot image="e548406e7c2295eb8bf8aaf09c1f4e2b.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="168">
+      <test-step result="SUCCESS" duration="212">
         <screenshots>
-          <screenshot image="aae2b40a809486c8f97a9a3b73a9e8f9.png"/>
+          <screenshot image="e548406e7c2295eb8bf8aaf09c1f4e2b.png"/>
         </screenshots>
         <description>Check flights page</description>
       </test-step>
-      <test-step result="FAILURE" duration="165">
+      <test-step result="FAILURE" duration="201">
         <screenshots>
-          <screenshot image="aae2b40a809486c8f97a9a3b73a9e8f9.png"/>
+          <screenshot image="e548406e7c2295eb8bf8aaf09c1f4e2b.png"/>
         </screenshots>
         <description>Possible trip</description>
         <error>net.thucydides.core.webdriver.WebdriverAssertionError: java.lang.AssertionError</error>
         <exception>net.thucydides.core.webdriver.WebdriverAssertionError:java.lang.AssertionError&#xd;
-[com.davidsanchez.serenity.steps.serenity.EndUserSteps.possible_trip(EndUserSteps.java:41), com.davidsanchez.serenity.steps.DefinitionSteps.thenTheyShouldSeeCheckFlightsPage(DefinitionSteps.java:35), org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86), org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)]</exception>
+[com.davidsanchez.serenity.steps.serenity.EndUserSteps.possible_trip(EndUserSteps.java:41), com.davidsanchez.serenity.steps.DefinitionSteps.thenTheyShouldSeeCheckFlightsPage(DefinitionSteps.java:35)]</exception>
       </test-step>
     </test-group>
     <test-step result="SKIPPED" duration="1">
@@ -264,7 +264,7 @@
       <screenshots>
         <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="11512">
+      <test-step result="SUCCESS" duration="11902">
         <screenshots>
           <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
         </screenshots>
@@ -276,14 +276,14 @@
         <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
         <screenshot image="8219cedd1e241be56bec366a781a6a79.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2975">
+      <test-step result="SUCCESS" duration="2692">
         <screenshots>
           <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
           <screenshot image="a74b1f6355e68dc578036e9d24aaf477.png"/>
         </screenshots>
         <description>Enters: &lt;span class=&apos;step-parameter&apos;&gt;SZG, DUB, 21/12/2015, 14/12/2015, 1, 0, 0, 0&lt;/span&gt;</description>
       </test-step>
-      <test-step result="SUCCESS" duration="464">
+      <test-step result="SUCCESS" duration="670">
         <screenshots>
           <screenshot image="a74b1f6355e68dc578036e9d24aaf477.png"/>
           <screenshot image="b144598f906e8ea665df258db206714a.png"/>
@@ -295,14 +295,14 @@
       <screenshots>
         <screenshot image="8219cedd1e241be56bec366a781a6a79.png"/>
       </screenshots>
-      <test-step result="FAILURE" duration="95">
+      <test-step result="FAILURE" duration="112">
         <screenshots>
           <screenshot image="8219cedd1e241be56bec366a781a6a79.png"/>
         </screenshots>
         <description>Check flights page</description>
         <error>java.lang.AssertionError</error>
         <exception>java.lang.AssertionError:null&#xd;
-[com.davidsanchez.serenity.steps.serenity.EndUserSteps.check_flights_page(EndUserSteps.java:37), com.davidsanchez.serenity.steps.DefinitionSteps.thenTheyShouldSeeCheckFlightsPage(DefinitionSteps.java:34), org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86), org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)]</exception>
+[com.davidsanchez.serenity.steps.serenity.EndUserSteps.check_flights_page(EndUserSteps.java:37), com.davidsanchez.serenity.steps.DefinitionSteps.thenTheyShouldSeeCheckFlightsPage(DefinitionSteps.java:34)]</exception>
       </test-step>
     </test-group>
     <test-step result="SKIPPED" duration="1">
@@ -314,13 +314,13 @@
   </test-group>
   <test-group name="[1] {origin=LNZ, destination=TFS, dDate=10/12/2015, rDate=17/12/2015, nAdults=1, nTeens=0, nChildren=0, nInfants=0, title=MS, name=Cristina, surname=Lopez, insurance=ES}" result="SUCCESS">
     <screenshots>
-      <screenshot image="ed473074c82013d2b56e109785a918be.png"/>
+      <screenshot image="bb8620ad6ef41179adc919efc94ea878.png"/>
     </screenshots>
     <test-group name="Given the user is on the search page" result="SUCCESS">
       <screenshots>
         <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="12184">
+      <test-step result="SUCCESS" duration="10243">
         <screenshots>
           <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
         </screenshots>
@@ -330,77 +330,70 @@
     <test-group name="When the user enter origin: &quot;LNZ&quot; ,destination: &quot;TFS&quot;, departure date: &quot;10/12/2015&quot;, return date: &quot;17/12/2015&quot;,number of adults: &quot;1&quot;,number of teens: &quot;0&quot;,number of children: &quot;0&quot;,number of infants: &quot;0&quot;" result="SUCCESS">
       <screenshots>
         <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
-        <screenshot image="b2fa0ef4ee37c59e2e3742eaf23c47aa.png"/>
+        <screenshot image="69aec56ca38dfc090fb2822de8d68ce0.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2733">
+      <test-step result="SUCCESS" duration="3089">
         <screenshots>
           <screenshot image="4fec8620f4c25846dfbfb09a51892339.png"/>
           <screenshot image="03232fa2fc1fa01ef80c75d4c223dad4.png"/>
         </screenshots>
         <description>Enters: &lt;span class=&apos;step-parameter&apos;&gt;LNZ, TFS, 10/12/2015, 17/12/2015, 1, 0, 0, 0&lt;/span&gt;</description>
       </test-step>
-      <test-step result="SUCCESS" duration="426">
+      <test-step result="SUCCESS" duration="592">
         <screenshots>
           <screenshot image="03232fa2fc1fa01ef80c75d4c223dad4.png"/>
-          <screenshot image="9af3da417d3cb3d58ecebe5e8551be81.png"/>
+          <screenshot image="a3077f63adff029886f63403d414b7eb.png"/>
         </screenshots>
         <description>Starts search</description>
       </test-step>
     </test-group>
     <test-group name="Then they should see the check flights page" result="SUCCESS">
       <screenshots>
-        <screenshot image="b2fa0ef4ee37c59e2e3742eaf23c47aa.png"/>
-        <screenshot image="0a99ce6d19ea31fb182374e0f4d495bd.png"/>
+        <screenshot image="69aec56ca38dfc090fb2822de8d68ce0.png"/>
+        <screenshot image="5df0f29cabfa96bf563317f334bc0872.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="218">
+      <test-step result="SUCCESS" duration="297">
         <screenshots>
-          <screenshot image="b2fa0ef4ee37c59e2e3742eaf23c47aa.png"/>
+          <screenshot image="69aec56ca38dfc090fb2822de8d68ce0.png"/>
         </screenshots>
         <description>Check flights page</description>
       </test-step>
-      <test-step result="SUCCESS" duration="409">
+      <test-step result="SUCCESS" duration="535">
         <screenshots>
-          <screenshot image="b2fa0ef4ee37c59e2e3742eaf23c47aa.png"/>
-          <screenshot image="258d6c2a1b265595b993a04a88baeb65.png"/>
+          <screenshot image="69aec56ca38dfc090fb2822de8d68ce0.png"/>
+          <screenshot image="87b84d64eb56c88eb04cbe59fd6fb2dd.png"/>
         </screenshots>
         <description>Go services page</description>
       </test-step>
     </test-group>
     <test-group name="Then the user enters passengers names with title &quot;MS&quot;, &quot;Cristina&quot; and &quot;Lopez&quot;, travel insurance &quot;ES&quot;" result="SUCCESS">
       <screenshots>
-        <screenshot image="5df0f29cabfa96bf563317f334bc0872.png"/>
-        <screenshot image="10c2de35323946b681b04846694ee82d.png"/>
+        <screenshot image="c90ea4d3282119928a0c647beefa5699.png"/>
+        <screenshot image="c38d64eee1c6f1c5754c5d77503841d5.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="2344">
+      <test-step result="SUCCESS" duration="2925">
         <screenshots>
-          <screenshot image="99d769d2090e67d9c1cf8d1bf108c9d6.png"/>
-          <screenshot image="58576bc1f784e887867166844da84906.png"/>
+          <screenshot image="c90ea4d3282119928a0c647beefa5699.png"/>
+          <screenshot image="facf11552426922281974928fa4b2bba.png"/>
         </screenshots>
         <description>Enter services data: &lt;span class=&apos;step-parameter&apos;&gt;MS, Cristina, Lopez, ES&lt;/span&gt;</description>
-      </test-step>
-      <test-step result="SUCCESS" duration="1826">
-        <screenshots>
-          <screenshot image="9a9b9440abd7a161f73af26d7f7a39d4.png"/>
-          <screenshot image="aa4e1af5b5bcf5d2775f7541fff2e3b7.png"/>
-        </screenshots>
-        <description>Go  car hire page</description>
       </test-step>
     </test-group>
     <test-group name="Then they should see the car hire page" result="SUCCESS">
       <screenshots>
-        <screenshot image="10c2de35323946b681b04846694ee82d.png"/>
-        <screenshot image="486e1f6df7b1a24a13f0939b953d4665.png"/>
+        <screenshot image="c38d64eee1c6f1c5754c5d77503841d5.png"/>
+        <screenshot image="0bfae9c41ab0b638ad4b72a4a4d01ff7.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="1051">
+      <test-step result="SUCCESS" duration="1569">
         <screenshots>
-          <screenshot image="10c2de35323946b681b04846694ee82d.png"/>
+          <screenshot image="c38d64eee1c6f1c5754c5d77503841d5.png"/>
         </screenshots>
         <description>Check car hire page</description>
       </test-step>
-      <test-step result="SUCCESS" duration="1130">
+      <test-step result="SUCCESS" duration="1704">
         <screenshots>
-          <screenshot image="10c2de35323946b681b04846694ee82d.png"/>
-          <screenshot image="3c7c48f399903c1294c1b79b597b498e.png"/>
+          <screenshot image="c38d64eee1c6f1c5754c5d77503841d5.png"/>
+          <screenshot image="1d460849061592bba76c47badbc98256.png"/>
         </screenshots>
         <description>Go purchase page</description>
       </test-step>

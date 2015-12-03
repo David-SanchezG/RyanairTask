@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="Book a flight" skipped="0" tests="5" time="119.98" timestamp="2015-12-337 02:18:38"><testcase name="Selecting services"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="Book a flight" skipped="0" tests="5" time="121.17" timestamp="2015-12-337 02:39:51"><testcase name="Selecting services"><failure type="java.lang.AssertionError"/><system-err>null&#13;
 com.davidsanchez.serenity.steps.serenity.EndUserSteps.check_flights_page(EndUserSteps.java:37)&#13;
 com.davidsanchez.serenity.steps.DefinitionSteps.thenTheyShouldSeeCheckFlightsPage(DefinitionSteps.java:34)&#13;
 ✽.Then they should see the check flights page(src/test/resources/features/consult_dictionary/BookingFlight.feature:9)&#13;

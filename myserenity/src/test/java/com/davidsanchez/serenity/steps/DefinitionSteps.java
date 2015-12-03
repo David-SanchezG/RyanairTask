@@ -40,7 +40,6 @@ public class DefinitionSteps {
     @Then("^the user enters passengers names with title \"([^\"]*)\", \"([^\"]*)\" and \"([^\"]*)\", travel insurance \"([^\"]*)\"$")
     public void thenTheUserEnterServicesData(String title,String name,String surname,String insurance) throws InterruptedException {
         eus.enter_services_data(title,name,surname,insurance);
-        eus.go_CarHire_page();
         Thread.sleep(3000);
     } 
     

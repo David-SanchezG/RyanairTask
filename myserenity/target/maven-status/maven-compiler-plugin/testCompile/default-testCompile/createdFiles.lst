@@ -1,0 +1,7 @@
+com\davidsanchez\serenity\pages\CarHire.class
+com\davidsanchez\serenity\DefinitionTestSuite.class
+com\davidsanchez\serenity\steps\DefinitionSteps.class
+com\davidsanchez\serenity\steps\serenity\EndUserSteps.class
+com\davidsanchez\serenity\pages\CheckFlights.class
+com\davidsanchez\serenity\pages\SearchPage.class
+com\davidsanchez\serenity\pages\CheckServices.class

@@ -52,11 +52,6 @@ public class EndUserSteps extends ScenarioSteps {
 		services.enter_insurance_service(insurance);
 		services.go_car_hire_page();
 	}
-    
-    @Step
-	public void go_CarHire_page() {
-		services.go_car_hire_page();
-	}
 
     @Step
 	public void check_car_hire_page() {
