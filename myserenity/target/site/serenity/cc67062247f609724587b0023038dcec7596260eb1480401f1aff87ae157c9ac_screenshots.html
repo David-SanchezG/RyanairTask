@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="339e5730b06e476043b87e0b0b251be3dd8f064ef5fb06a3c7ebfdb9d52a731c.html">Book A Flight</a>
+                > <a
+                    href="cc67062247f609724587b0023038dcec7596260eb1480401f1aff87ae157c9ac.html">Selecting services </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-12-2015 02:20</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+    <!--
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/fail.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="failing-color">Selecting services<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">119,98s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+-->
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Book A Flight</span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                In order to make a flight booking<br>As a customer<br>I want to search available flights
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><img class="story-outcome-icon"
+                                                            src="images/fail.png"/></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Selecting services
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+
+        <div class="scenario">Given the user is on the search page<br>When the user enter origin: "LNZ" ,destination: "TFS", departure date: "10/12/2015", return date: "17/12/2015",number of adults: "0",number of teens: "0",number of children: "5",number of infants: "0"<br>Then they should see the check flights page<br>Then the user enters passengers names with title "MR", "Pepe" and "Dragon", travel insurance "ZQ"<br>Then they should see the car hire page</div>
+
+    </div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_4fec8620f4c25846dfbfb09a51892339.png" alt=""
+                     title="Is the search page" width="960"/>
+                <img src="4fec8620f4c25846dfbfb09a51892339.png" alt=""
+                     title="Enters: &lt;span class='step-parameter'&gt;LNZ, TFS, 10/12/2015, 17/12/2015, 0, 0, 5, 0&lt;/span&gt;" width="960"/>
+                <img src="scaled_7a29ec43fc6a4386dd60a8def59cd03c.png" alt=""
+                     title="Enters: &lt;span class='step-parameter'&gt;LNZ, TFS, 10/12/2015, 17/12/2015, 0, 0, 5, 0&lt;/span&gt;" width="960"/>
+                <img src="7a29ec43fc6a4386dd60a8def59cd03c.png" alt=""
+                     title="Starts search" width="960"/>
+                <img src="scaled_63fbf1ef4182cd31b1cac52b0ca0a5aa.png" alt=""
+                     title="Starts search" width="960"/>
+                <img src="scaled_780d1a3d9490ffcad2c11858aa172581.png" alt=""
+                     title="Check flights page" width="960"/>
+                <img src="4fec8620f4c25846dfbfb09a51892339.png" alt=""
+                     title="Is the search page" width="960"/>
+                <img src="4fec8620f4c25846dfbfb09a51892339.png" alt=""
+                     title="Enters: &lt;span class='step-parameter'&gt;LNZ, TFS, 10/12/2015, 17/12/2015, 1, 0, 0, 5&lt;/span&gt;" width="960"/>
+                <img src="scaled_0a341677eb394935f92113b3625e73b0.png" alt=""
+                     title="Enters: &lt;span class='step-parameter'&gt;LNZ, TFS, 10/12/2015, 17/12/2015, 1, 0, 0, 5&lt;/span&gt;" width="960"/>
+                <img src="0a341677eb394935f92113b3625e73b0.png" alt=""
+                     title="Starts search" width="960"/>
+                <img src="scaled_c3bc0b35972974cd56d3d9073c3ca2e8.png" alt=""
+                     title="Starts search" width="960"/>
+                <img src="scaled_4dbf557e6d937dd72fd1f20cdb04b5f7.png" alt=""
+                     title="Check flights page" width="960"/>
+                <img src="4fec8620f4c25846dfbfb09a51892339.png" alt=""
+                     title="Is the search page" width="960"/>
+                <img src="4fec8620f4c25846dfbfb09a51892339.png" alt=""
+                     title="Enters: &lt;span class='step-parameter'&gt;SZG, DUB, 14/12/2015, 21/12/2015, 1, 0, 0, 0&lt;/span&gt;" width="960"/>
+                <img src="scaled_d38c0b6b366cf0465946d8332db6a515.png" alt=""
+                     title="Enters: &lt;span class='step-parameter'&gt;SZG, DUB, 14/12/2015, 21/12/2015, 1, 0, 0, 0&lt;/span&gt;" width="960"/>
+                <img src="d38c0b6b366cf0465946d8332db6a515.png" alt=""
+                     title="Starts search" width="960"/>
+                <img src="scaled_9930f9ed97bf35cec37fdeed1ade981a.png" alt=""
+                     title="Starts search" width="960"/>
+                <img src="scaled_aae2b40a809486c8f97a9a3b73a9e8f9.png" alt=""
+                     title="Check flights page" width="960"/>
+                <img src="aae2b40a809486c8f97a9a3b73a9e8f9.png" alt="java.lang.AssertionError"
+                     title="Possible trip" width="960"/>
+                <img src="4fec8620f4c25846dfbfb09a51892339.png" alt=""
+                     title="Is the search page" width="960"/>
+                <img src="4fec8620f4c25846dfbfb09a51892339.png" alt=""
+                     title="Enters: &lt;span class='step-parameter'&gt;SZG, DUB, 21/12/2015, 14/12/2015, 1, 0, 0, 0&lt;/span&gt;" width="960"/>
+                <img src="scaled_a74b1f6355e68dc578036e9d24aaf477.png" alt=""
+                     title="Enters: &lt;span class='step-parameter'&gt;SZG, DUB, 21/12/2015, 14/12/2015, 1, 0, 0, 0&lt;/span&gt;" width="960"/>
+                <img src="a74b1f6355e68dc578036e9d24aaf477.png" alt=""
+                     title="Starts search" width="960"/>
+                <img src="scaled_b144598f906e8ea665df258db206714a.png" alt=""
+                     title="Starts search" width="960"/>
+                <img src="scaled_8219cedd1e241be56bec366a781a6a79.png" alt=""
+                     title="Check flights page" width="960"/>
+                <img src="4fec8620f4c25846dfbfb09a51892339.png" alt=""
+                     title="Is the search page" width="960"/>
+                <img src="4fec8620f4c25846dfbfb09a51892339.png" alt=""
+                     title="Enters: &lt;span class='step-parameter'&gt;LNZ, TFS, 10/12/2015, 17/12/2015, 1, 0, 0, 0&lt;/span&gt;" width="960"/>
+                <img src="scaled_03232fa2fc1fa01ef80c75d4c223dad4.png" alt=""
+                     title="Enters: &lt;span class='step-parameter'&gt;LNZ, TFS, 10/12/2015, 17/12/2015, 1, 0, 0, 0&lt;/span&gt;" width="960"/>
+                <img src="03232fa2fc1fa01ef80c75d4c223dad4.png" alt=""
+                     title="Starts search" width="960"/>
+                <img src="scaled_9af3da417d3cb3d58ecebe5e8551be81.png" alt=""
+                     title="Starts search" width="960"/>
+                <img src="scaled_b2fa0ef4ee37c59e2e3742eaf23c47aa.png" alt=""
+                     title="Check flights page" width="960"/>
+                <img src="b2fa0ef4ee37c59e2e3742eaf23c47aa.png" alt=""
+                     title="Go services page" width="960"/>
+                <img src="scaled_258d6c2a1b265595b993a04a88baeb65.png" alt=""
+                     title="Go services page" width="960"/>
+                <img src="scaled_99d769d2090e67d9c1cf8d1bf108c9d6.png" alt=""
+                     title="Enter services data: &lt;span class='step-parameter'&gt;MS, Cristina, Lopez, ES&lt;/span&gt;" width="960"/>
+                <img src="scaled_58576bc1f784e887867166844da84906.png" alt=""
+                     title="Enter services data: &lt;span class='step-parameter'&gt;MS, Cristina, Lopez, ES&lt;/span&gt;" width="960"/>
+                <img src="scaled_9a9b9440abd7a161f73af26d7f7a39d4.png" alt=""
+                     title="Go  car hire page" width="960"/>
+                <img src="scaled_aa4e1af5b5bcf5d2775f7541fff2e3b7.png" alt=""
+                     title="Go  car hire page" width="960"/>
+                <img src="scaled_10c2de35323946b681b04846694ee82d.png" alt=""
+                     title="Check car hire page" width="960"/>
+                <img src="10c2de35323946b681b04846694ee82d.png" alt=""
+                     title="Go purchase page" width="960"/>
+                <img src="scaled_3c7c48f399903c1294c1b79b597b498e.png" alt=""
+                     title="Go purchase page" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.1.17</span>
+</div>
+</body>
+</html>
